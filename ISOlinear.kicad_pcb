@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 135.8925 91.9)
+		(grid_origin 90.96625 117.3)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -10459,6 +10459,102 @@
 			)
 		)
 	)
+	(footprint "keyswitches:MX_Stabilizer_2u"
+		(layer "F.Cu")
+		(uuid "7f6b4c71-051f-4b06-a92f-d7a85a518564")
+		(at 224.31625 183.975 180)
+		(descr "MX-style stabilizer mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,stabilizer,stab")
+		(property "Reference" "REF**"
+			(at 0 10 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "130f9157-75e1-4720-9fa7-464f87593a5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Stabilizer"
+			(at 0 -8.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab41e992-de25-4d22-b120-b6f0f58f410c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a981194-a821-4aac-b3e7-f8d20b661297")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98bd78a9-4ebc-41af-bdfa-5c72fbdb36cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5324a439-b96a-4116-9a91-1a7fc89c074b")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.9 -6.985 180)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1532b826-1315-4d9a-ad03-28e97f816965")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.9 8.255 180)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f7775ab5-8c32-44ef-b5e4-288d74d73e9d")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.9 -6.985 180)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3fb8c43d-eb62-44e3-8860-fbe5a54d4967")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.9 8.255 180)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9a03de1f-fd44-44e4-a731-0aadb425eccc")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "emptystring:MXOnly-1U-Hotswap"
 		(layer "F.Cu")
 		(uuid "8a536370-cd1d-491c-a7ac-b002b8affafb")
@@ -13014,6 +13110,102 @@
 				(xyz -0 -0 -0)
 			)
 		)
+	)
+	(footprint "keyswitches:MX_Stabilizer_2u"
+		(layer "F.Cu")
+		(uuid "9ea052b1-ef2e-43bb-903f-d52d602eeeec")
+		(at 183.835 183.975 180)
+		(descr "MX-style stabilizer mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,stabilizer,stab")
+		(property "Reference" "REF**"
+			(at 0 10 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "d5774df6-f801-451d-b2b4-1669cd521505")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Stabilizer"
+			(at 0 -8.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "174213bf-7971-4cb3-ba84-4a8aff2418ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4632a368-c834-44e6-9dfa-6b5cc942b374")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b735f1-11d8-4702-a409-ab498002efa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "cb337e33-56f5-464a-9176-3151b6805721")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.9 -6.985 180)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "31caf711-1d01-4fa3-a253-a4aaece78eaf")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.9 8.255 180)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "513e827a-6999-4fe9-a233-0ae63075d88a")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.9 -6.985 180)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "25d43da8-3444-4f6d-9623-86003cce2842")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.9 8.255 180)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "33f988ed-e3d0-4246-8b7a-cb64137c7b1d")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "emptystring:MXOnly-1U-Hotswap"
 		(layer "F.Cu")
